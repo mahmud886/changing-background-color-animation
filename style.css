@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    animation: bgColor infinite 30s;
+    
+}
+h1{
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:white; 
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+@keyframes bgColor{
+    0%{
+        background: #FEA47F;
+    }
+    10%{
+        background: #F97F51;
+    }
+    20%{
+        background: #6D214F;
+    }
+    30%{
+        background: #FC427B;
+    }
+    40%{
+        background: #B33771;
+    }
+    50%{
+        background: #FD7272;
+    }
+    60%{
+        background: #3B3B98;
+    }
+    70%{
+        background: #1B9CFC;
+    }
+    80%{
+        background: #25CCF7;
+    }
+    90%{
+        background: #55E6C1;
+    }
+    100%{
+        background: #FEA47F;
+    }
+}
